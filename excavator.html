@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <link rel="stylesheet" href="css/other.css" />
+    <script defer src="js/mail.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="blue__bg">
+        <div class="container">
+          <div class="header__contact__block">
+            <p class="header__contact">Орск и Оренбургская область</p>
+            <a href="tel:+79058983330" class="header__contact"
+              >+7 (905) 898-33-30</a
+            >
+          </div>
+          <div class="grey__line"></div>
+
+          <nav>
+            <ul class="navigation">
+              <li>
+                <a
+                  href="index.html"
+                  class="nav__el_other_page adaptation_nav_el"
+                  id="logo"
+                >
+                  <img src="img/icon/logo.svg" id="logo_img" alt="логотип" />
+                  <p>Ново<span>Киб</span></p>
+                </a>
+              </li>
+              <li>
+                <a href="index.html#catalog" class="nav__el_other_page header_nav_adaptation">
+                  Каталог
+                </a>
+              </li>
+              <li>
+                <a href="index.html#aboutUs" class="nav__el_other_page header_nav_adaptation">
+                  О нас
+                </a>
+              </li>
+              <li>
+                <a href="index.html#review" class="nav__el_other_page header_nav_adaptation">
+                  Отзывы
+                </a>
+              </li>
+              <li>
+                <a href="#contact" class="nav__el_other_page header_nav_adaptation">
+                  Контакты
+                </a>
+              </li>
+              <li>
+                <a href="#" class="nav__el header_nav_adaptation"> Прайс </a>
+              </li>
+              <li>
+                  <button class="btn nav__el header_btn">Обратный звонок</button>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main>
+        <section id="main">
+            <div class="blue__bg">
+              <div class="container">
+                <div class="main__block">
+                  <div class="main__text__block">
+                    <h1 class="main__title other_page">
+                        эскаваторы в <span>аренду</span>
+                    </h1>
+                    <p class="default__text" id="margin_text">
+                        Аренда импортной техники с экипажем, без посредников от собственника с полным набором документов. Каждая единица техники обладает гидромолотом
+                    </p>
+                    <button class="btn orange__button" id="header__orange_btn">Заказать технику</button>
+                  </div>
+                  <img src="img/excavator/excavator_main.png" id="samosval_img" alt="Экскаватор" />
+                </div>
+                <div class="page_line"></div>
+          </section>
+
+          <section>
+            <div class="blue__bg">
+                <div class="container">
+                    <div class="technique__wrapper">
+                        <div class="technique__block">
+                            <img src="img/excavator/ex2.png" alt="Экскаватор">
+                            <p class="techique__title">
+                                DOOSAN 210
+                            </p>
+                        </div>
+                        <div class="technique__block no-right_margin">
+                            <img src="img/excavator/ex2.png" alt="Экскаватор">
+                            <p class="techique__title">
+                                DOOSAN 225
+                            </p>
+                        </div>
+                        <div class="technique__block">
+                            <img src="img/excavator/ex2.png" alt="Экскаватор">
+                            <p class="techique__title">
+                                Миниэкскаватор 3 тн
+                            </p>
+                        </div>
+                        <div class="technique__block no-right_margin">
+                            <img src="img/excavator/ex2.png" alt="Экскаватор">
+                            <p class="techique__title">
+                                Экскаватор-погрузчик
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </section>
+
+          <section class="section no-top_margin" id="order">
+            <div class="container">
+                <div class="order__wrapper">
+                    <img src="img/order_bg.png" alt="Фотография самосвала">
+                      <div class="order__block">
+                          <form>
+                              <h3 class="order__title">
+                                  Оставьте заявку
+                              </h3>
+                              <p class="default__text" id="order__text">
+                                  Оставив заявку наш менеджер перезвонит, что бы ответь на любой ваш вопрос
+                              </p>
+                              <input type="hidden" name="project_name" value="Site Name">
+                              <input type="hidden" name="admin_email" value="artem.musin.9323@mail.ru">
+                              <input type="hidden" name="form_subject" value="Заявка с сайта">
+                      
+                              <div class="form__input__block">
+                                  <div class="input__wrapper name__block">
+                                      <input type="text" class="form__input" id = 'name' name="Name" placeholder="Имя" required><br>
+                                      <p class='error__text' id = 'nameLength'>Строка имени должна быть длиннее 1 буквы</p>
+                                      <p class='error__text' id = 'nameAlphabet'>Имя должно содержать только кирилицу</p>
+                                  </div>
+                                  <div class="input__wrapper tel__block">
+                                      <input type="tel" maxlength="12" class="form__input" name="Phone" placeholder="Номер телефона" required><br>
+                                      <p class="error__text">Некорректно введён номер телефона</p>
+                                  </div>
+                                  <div class="input__wrapper email__block">
+                                      <input type="email" class="form__input" name="E-mail" placeholder="Почта"><br>
+                                  </div>
+                                  <button class="orange__button" id="order__btn">Заказать технику</button>
+                              </div>
+                      
+                          </form>
+                      </div>
+                </div>
+            </div>
+          </section>
+
+          <section class="section" id="contact">
+            <div class="container">
+              <h3 class="section__title">
+                Конт<span>акты</span>
+              </h3>
+              <div class="contact__wrapper">
+                <div class="contact__block">
+                  <img src="img/icon/phone.svg" alt="Икнока телефона">
+                  <p class="contact__block__title">
+                    Телефон
+                  </p>
+                  <p class="default__text" id="contact__text">
+                    +7 (905) 898-33-30
+                  </p>
+                </div>
+    
+                <div class="contact__block">
+                  <img src="img/icon/pin.svg" alt="Икнока телефона">
+                  <p class="contact__block__title">
+                    Адрес
+                  </p>
+                  <p class="default__text" id="contact__text">
+                    Орск, ул. Тобольская, 14
+                  </p>
+                </div>
+    
+                <div class="contact__block">
+                  <img src="img/icon/mail.svg" alt="Икнока телефона">
+                  <p class="contact__block__title">
+                    Почта
+                  </p>
+                  <p class="default__text" id="contact__text">
+                    novokib@bk.ru
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+    
+          <section>
+            <iframe class="map" title="Карта расположения офиса" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2497.1803679022496!2d58.54446107584846!3d51.252588329287214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x417ffb8c830d0917%3A0xbdae0eef0be3f198!2z0KLQvtCx0L7Qu9GM0YHQutCw0Y8g0YPQuy4sIDE0LCDQntGA0YHQuiwg0J7RgNC10L3QsdGD0YDQs9GB0LrQsNGPINC-0LHQuy4sIDQ2MjQwMg!5e0!3m2!1sru!2sru!4v1718960330078!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </section>
+    </main>
+
+    <footer>
+        <div class="blue__bg" id="footer__bg">
+          <div class="container">
+            <div class="footer__title__block">
+              <h3 class="footer__title">
+                ООО  “НОВОКИБ”
+              </h3>
+              <a href="tel:+79058983330" class="footer__text">
+                +7 (905) 898-33-30
+              </a>
+            </div>
+            <nav id="footer_nav">
+              <ul class="navigation">
+                <li><a href="index.html#catalog" class="nav__el_other_page"> Каталог </a></li>
+                <li><a href="index.html#aboutUs" class="nav__el_other_page"> О нас </a></li>
+                <li><a href="index.html#review" class="nav__el_other_page"> Отзывы </a></li>
+                <li><a href="#contact" class="nav__el_other_page"> Контакты </a></li>
+                <li><a href="#" class="nav__el_other_page"> Прайс </a></li>
+              </ul>
+            </nav>
+            <div class="grey__line" id="footer_line"></div>
+          </div>
+        </div>
+      </footer>
+  
+      <div class="form__block2 hidden">
+        <form>
+  
+            <h3 class="order__title">
+                Оставьте заявку
+            </h3>
+  
+            <p class="default__text" id="order__text">
+                Оставив заявку наш менеджер перезвонит, что бы ответь на любой ваш вопрос
+            </p>
+  
+            <!-- Hidden Required Fields -->
+            <input type="hidden" name="project_name" value="Site Name">
+            <input type="hidden" name="admin_email" value="artem.musin.9323@mail.ru">
+            <input type="hidden" name="form_subject" value="Заявка с сайта">
+            <!-- END Hidden Required Fields -->
+    
+            <div class="form__input__block">
+                <input type="text" class="form__input2" name="Name" placeholder="Имя" required><br>
+                <input type="text" class="form__input2" name="Phone" placeholder="Номер телефона" required><br>
+                <input type="text" class="form__input2" name="E-mail" placeholder="Почта"><br>
+                <button class="orange__button" id="form_hidden_btn">Заказать технику</button>
+            </div>
+    
+        </form>
+    </div>
+    <div class="overlay hidden"></div>
+
+    <script src="js/main.js"></script>
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  </body>
+</html>
